@@ -23,7 +23,7 @@ namespace NameListApp
         public MainWindow()
         {
             InitializeComponent();
-            lbl1.Content = "List of Names:";
+            lbl1.Content = "Names";
         }
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)

@@ -15,13 +15,13 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <Label FontSize="18" Content="List of Names:" x:Name="lbl1"/>
+        <Label FontSize="18" Content="Names" x:Name="lbl1" FontFamily="Arial"/>
         <Label Grid.Column="1" FontFamily="18" FontStyle="Italic" Content="" x:Name="lblWarning"/>
         <ListBox Grid.Row="1" x:Name="lstNames"/>
         <StackPanel Grid.Row="1" Grid.Column="1" Margin="5,0,0,0">
             <TextBox x:Name="txtName" FontSize="16" />
             <Button x:Name="btnAdd" Margin="0,10,0,0" FontSize="18" Click="btnAdd_Click" Content="Add Name"/>
-            <Button x:Name="btnClear" Margin="0,10,0,0" FontSize="18" Click="btnClear_Click">Clear All Names</Button>
+            <Button x:Name="btnClear" Margin="0,10,0,0" FontSize="18" Click="btnClear_Click" Content="Clear All Names"/>
         </StackPanel>
     </Grid>
 </Window>
